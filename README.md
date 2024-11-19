@@ -75,15 +75,16 @@ npm start
 ```
 Your application should now be running at http://localhost:3000 (frontend) and http://localhost:5000 (backend).
 
-**##Usage**
+**Usage**
 - Register a New User: Sign up with a username and password.
 - Login: Use your credentials to log in and access the platform.
 - Create a Post: Logged-in users can create new blog posts.
 - Edit/Delete Posts: Admins can manage posts, while regular users can edit their own posts.
+
 **API Endpoints**
-**Authentication**
-- POST /api/auth/register: Register a new user.
-- POST /api/auth/login: Login with username and password to receive a JWT token.
+  **Authentication**
+  - POST /api/auth/register: Register a new user.
+  - POST /api/auth/login: Login with username and password to receive a JWT token.
 **Posts**
 - GET /api/posts: Fetch all blog posts.
 - GET /api/posts/:id: Fetch a specific blog post by ID.
