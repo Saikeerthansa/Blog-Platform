@@ -42,7 +42,7 @@ Make sure you have the following installed:
 
 ### Backend Setup
 
-1. Navigate to the `blog-backend` directory.
+Navigate to the `blog-backend` directory.
    ```bash
    cd blog-backend
    ```
